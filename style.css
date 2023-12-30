@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: number;
+}
+
+.small-image {
+    width: 200px;
+    height: auto;
+}
+
+#taskInput {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#taskList {
+    font-size: 20px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.task-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    font-size: 14px;
+    user-select: none;
+}
